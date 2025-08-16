@@ -1,0 +1,59 @@
+/* KOVA-AI public site styles */
+:root{
+  --bg:#0b0b0f;
+  --card:#15151d;
+  --text:#e9e9f1;
+  --muted:#a7a7b7;
+  --accent:#FDE68A; /* sunshine yellow */
+  --ring:#ffd84d;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family: ui-sans-serif, system-ui, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+  background: radial-gradient(1000px 600px at 20% -20%, rgba(253,232,138,0.15), transparent 60%),
+              radial-gradient(1000px 600px at 80% 120%, rgba(253,232,138,0.12), transparent 60%),
+              var(--bg);
+  color: var(--text);
+}
+.site-header{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:16px 24px;border-bottom:1px solid rgba(255,255,255,.06);
+  backdrop-filter: blur(8px);
+  position:sticky;top:0;z-index:10;background:rgba(11,11,15,0.6);
+}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{width:40px;height:40px}
+.brand-text h1{margin:0;font-size:20px;letter-spacing:.3px}
+.tag{margin:0;color:var(--muted);font-size:12px}
+.nav a{color:var(--text);text-decoration:none;margin-left:16px;font-size:14px;opacity:.85}
+.nav a:hover{opacity:1;color:var(--accent)}
+
+.hero{
+  padding:64px 24px;text-align:center;max-width:900px;margin:0 auto;
+}
+.hero h2{font-size:40px;margin:0 0 12px}
+.hero p{color:var(--muted);margin:0 auto 20px;max-width:720px}
+.cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{padding:10px 16px;border:1px solid rgba(255,255,255,.15);border-radius:12px;text-decoration:none;color:var(--text);}
+.btn.primary{background:linear-gradient(180deg, var(--accent), #e9c45e); color:#222; border-color:transparent;}
+
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;padding:24px;max-width:1100px;margin:0 auto}
+.card{background:var(--card);padding:18px;border-radius:16px;border:1px solid rgba(255,255,255,.06)}
+
+#modules{padding:24px;max-width:1100px;margin:0 auto}
+#modules .module-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.module{background:var(--card);padding:18px;border-radius:16px;border:1px solid rgba(255,255,255,.06)}
+
+#integrations{padding:24px;max-width:1100px;margin:0 auto}
+.pill-list{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.pill-list li{padding:8px 12px;border-radius:999px;background:rgba(253,232,138,.15);border:1px solid rgba(253,232,138,.3);color:#ffe694}
+
+#roadmap{padding:24px;max-width:900px;margin:0 auto}
+.roadmap{line-height:1.7;color:var(--muted)}
+
+#contact{padding:24px;max-width:900px;margin:0 auto}
+
+.site-footer{
+  padding:24px;text-align:center;color:var(--muted);border-top:1px solid rgba(255,255,255,.06);margin-top:24px
+}
