@@ -1,13 +1,31 @@
-# KOVA-AI — Public Docs (kova-ai-site)
+# KOVA OS — Public Site
 
-This repository powers the **public** GitHub Pages site for KOVA.
+**kovaos.com** now redirects to the live KOVA OS app at **https://kova.manus.space**
 
-- **URL:** `https://kathrynhiggs21.github.io/kova-ai-site/`
-- **App Code:** Lives in the private repo `kova-ai` (deployed to Netlify/Vercel)
-- **Do not store secrets here.**
+## What is KOVA?
 
-## Develop
-Open `index.html` locally or serve with any static server.
+KOVA (Katy's Organizational Voice Assistant) is a modular, voice-first personal AI operating system. Your life. Sorted.
 
-## Deploy (GitHub Pages)
-- Push to `main` and the included GitHub Actions workflow will publish automatically.
+## Architecture
+
+All KOVA systems have been consolidated into a single unified platform:
+
+- **Live App:** https://kova.manus.space
+- **Public Site:** https://kovaos.com → redirects to kova.manus.space
+- **Primary Repo:** kova-voice-assistant (Manus-managed)
+- **Master Spec:** KOVA_OS_MASTER_SPEC.md in the primary repo
+
+## Modules
+
+- **KOVA Core** — Scheduling, notifications, daily/weekly digests
+- **KOVA Voice** — Wake word detection, speech recognition, TTS
+- **KOVA Lens** — Vision tools and document scanning (roadmap)
+- **KOVA Writing** — Drafts, rewrites, branded templates
+- **Nova Research** — Verified web research with citations
+- **KOVA Memory** — Persistent memory across sessions
+- **KOVA Reagan** — Homeschool dashboard (roadmap)
+
+## Contact
+
+Email: spear.cpt@gmail.com
+© 2026 KOVA OS. Built with love and sarcasm.
