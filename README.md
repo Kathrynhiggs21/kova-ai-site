@@ -1,31 +1,21 @@
-# KOVA OS — Public Site
+# KOVA OS — Legacy Public Site / Support Layer
 
-**kovaos.com** now redirects to the live KOVA OS app at **https://kova.manus.space**
+This repository contains older public-site, redirect, and documentation work for KOVA OS.
 
-## What is KOVA?
+## Canonical architecture
 
-KOVA (Katy's Organizational Voice Assistant) is a modular, voice-first personal AI operating system. Your life. Sorted.
+KOVA OS is one coordinated system, not separate competing builds.
 
-## Architecture
+- **Canonical orchestration hub:** `Kathrynhiggs21/Kova-ai-SYSTEM`
+- **Canonical repository map:** `KOVA_REPO_MAP.md` in the orchestration hub
+- **Canonical domain:** `kovaos.com`
+- **Primary web implementation:** `Kathrynhiggs21/kovaos-site`
+- **Core assistant/application logic:** `Kathrynhiggs21/kova-ai`
 
-All KOVA systems have been consolidated into a single unified platform:
+Historical references in this repository that name a Manus-managed repository or another component as the "Primary Repo" are superseded by the canonical repository map unless an explicit migration is recorded there.
 
-- **Live App:** https://kova.manus.space
-- **Public Site:** https://kovaos.com → redirects to kova.manus.space
-- **Primary Repo:** kova-voice-assistant (Manus-managed)
-- **Master Spec:** KOVA_OS_MASTER_SPEC.md in the primary repo
+## Role of this repository
 
-## Modules
+Preserve useful public-site and documentation material, migrate it into the active web stack when appropriate, and avoid creating a second KOVA website or orchestration layer.
 
-- **KOVA Core** — Scheduling, notifications, daily/weekly digests
-- **KOVA Voice** — Wake word detection, speech recognition, TTS
-- **KOVA Lens** — Vision tools and document scanning (roadmap)
-- **KOVA Writing** — Drafts, rewrites, branded templates
-- **Nova Research** — Verified web research with citations
-- **KOVA Memory** — Persistent memory across sessions
-- **KOVA Reagan** — Homeschool dashboard (roadmap)
-
-## Contact
-
-Email: spear.cpt@gmail.com
-© 2026 KOVA OS. Built with love and sarcasm.
+For cross-repository work, read this repository's `AGENTS.md` and then the orchestration hub's `AGENTS.md` and `KOVA_REPO_MAP.md`.
