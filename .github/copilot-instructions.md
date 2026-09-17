@@ -95,7 +95,8 @@ Do not assume another frontend replaces this unless a deliberate migration is pr
 
 ## `Kathrynhiggs21/kovaos-site`
 
-Current public KOVA website / docs / entry portal.
+Treat public-site ownership as something to confirm from repository evidence plus the
+canonical orchestration map in `Kathrynhiggs21/Kova-ai-SYSTEM` / `KOVA_REPO_MAP.md`.
 
 Responsibilities should trend toward:
 
