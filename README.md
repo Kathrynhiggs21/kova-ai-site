@@ -22,4 +22,4 @@ For cross-repository work, read this repository's `AGENTS.md` and then the orche
 
 ## Validation
 
-The connected CircleCI workflow checks `script.js` syntax and the required static source files. It does not establish production route or domain readiness. The historical Manus redirect is preserved until the owner verifies the canonical production cutover.
+The CircleCI configuration checks `script.js` syntax and the required static source files. It does not establish production route or domain readiness. The historical Manus redirect is preserved until the owner verifies the canonical production cutover.
