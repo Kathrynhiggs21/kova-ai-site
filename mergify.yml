@@ -1,5 +1,0 @@
-# Mergify is installed on this repository, but this legacy public-site support repo
-# does not currently publish a deterministic pull-request CI matrix that is safe to
-# use for queue-based or automatic merging. Keep Mergify effectively disabled until
-# repo-specific PR checks and branch protections are defined and verified.
-pull_request_rules: []
